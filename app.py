@@ -1,13 +1,13 @@
-from twitchio.ext import commands
+ from twitchio.ext import commands
 import keep_alive
 
 
 twitchBot = commands.Bot(
-    token="...", # ACCESS TOKEN, Get it at https://twitchtokengenerator.com
-    nick="twitchbot", # your bot's nick
+    token="om5q311m1m8tavnd3zhgczebzur8zn", # ACCESS TOKEN, Get it at https://twitchtokengenerator.com
+    nick="kadiyena", # your bot's nick
     prefix="!", # command prefix
-    client_id="...", # Get it at https://twitchtokengenerator.com
-    initial_channels=["TwitchAccount1", "TwitchAccount2"], # The twitch channels you want the bot working at
+    client_id="gp762nuuoqcoxypju8c569th9wz7q5", # Get it at https://twitchtokengenerator.com
+    initial_channels=["you9100937a", "TwitchAccount2"], # The twitch channels you want the bot working at
 )
 
 
